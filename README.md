@@ -1,4 +1,3 @@
-# LeetCode_Journey
 # **LeetCode Journey**
 
 ## 🚀 **Giới thiệu**
