@@ -39,7 +39,7 @@ class SinhToHop():
                 self.a[j] = self.a[j - 1] + 1
 
     def sinh_all(self):
-        self.ktao()  # <-- Nhớ khởi tạo tổ hợp ban đầu
+        self.ktao()  
         while self.ok:
             for i in range(1, self.k + 1):
                 print(self.a[i], end='')
