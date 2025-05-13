@@ -38,6 +38,7 @@ class SinhToHop():
     def ktao(self):
         for i in range(1 , self.k+1):
             self.a[i] = i 
+        return self 
     def sinh(self):
         i = self.k 
         while(i > 0 and self.a[i] == self.n - self.k + i):
@@ -50,6 +51,7 @@ class SinhToHop():
             while(j <= self.k):
                 self.a[j] = self.a[j-1] + 1 
                 j+=1
+        return self 
     def sinh_all(self):
         self.ktao()
         while(self.ok):
@@ -58,6 +60,7 @@ class SinhToHop():
             self.sinh()
             print(end =' ')
         print()
+        return self 
 
 if __name__ == '__main__':
     t = int(input())
